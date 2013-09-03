@@ -102,6 +102,10 @@ var options = {}; // all options listed in the REST documentation for Docker are
 docker.containers.inspect('263tbr762t37rtbd', options, handler);
 // OR
 docker.containers.inspect('263tbr762t37rtbd', handler);
+// AND
+docker.images.inspect('8dbd9e392a96', options, handler);
+// OR
+docker.images.inspect('8dbd9e392a96', handler);
 
 
 ```
